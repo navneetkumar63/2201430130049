@@ -1,0 +1,32 @@
+.container{
+height: 80vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+.inputContainer h1{
+    font-size: 3.5rem;
+}
+
+.inputContainer h1 span{
+    color: lightsalmon;
+
+
+}
+.inputContainer div{
+    display: flex;
+margin-bottom: 2rem;
+}
+
+.inputContainer input{
+    width: 100%;
+    padding: 0.5rem 0.2rem 0.5rem 0;
+    text-indent: 1rem;
+    border:none;
+    font-size:1rem;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    background-color: red;
+}
