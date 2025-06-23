@@ -1,14 +1,15 @@
 import React from 'react'
 import InputShortner from './InputShortner'
-import './App.css';
-import 
+import './App.css'
+const App = () => {
   return (
-    <div className='container' >
+    <div className='container'>
       <InputShortner/>
-     
+       
     </div>
   )
 }
 
 export default App
+
 
